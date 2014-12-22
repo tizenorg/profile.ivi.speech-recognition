@@ -1,3 +1,6 @@
+* Mon Dec 22 15:08:15 EEST 2014 Krisztian Litkey <kli@iki.fi> - 0.0.13
+- packaging: moved from multi-user to default target.
+
 * Tue Dec 16 18:04:32:30 EEST 2014 Krisztian Litkey <kli@iki.fi> - 0.0.12
 - sphinx: fix a few incorrect mrp_debug usages.
 - simple-disambiguator: fix a few incorrect mrp_debug usages.
