@@ -143,7 +143,7 @@ cat packaging/speech-recognition.service.in | \
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/speech-recognition/dictionaries/w3c-speech
 
-%install_service ../user/weston.target.wants speech-recognition.socket
+%install_service ../user/default.target.wants speech-recognition.socket
 
 %clean
 rm -rf $RPM_BUILD_ROOT
