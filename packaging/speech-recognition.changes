@@ -1,3 +1,6 @@
+* Mon Jan 26 15:46:10 EEST 2015 Krisztian Litkey <kli@iki.fi> - 0.0.15
+- packaging: generate D-Bus service file with correct @LIBDIR@.
+
 * Mon Jan 12 16:10:15 EEST 2015 Krisztian Litkey <kli@iki.fi> - 0.0.14
 - packaging: bumped version.
 
