@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.tizen.srs
-Exec=/usr/lib/srs/scripts/start-speech-service.sh

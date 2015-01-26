@@ -123,6 +123,9 @@ cat packaging/speech-recognition.conf.in | \
 cat packaging/speech-recognition.service.in | \
     sed "s#@LIBDIR@#%{_libdir}#g" \
         > packaging/speech-recognition.service
+cat packaging/org.tizen.srs.service.in | \
+    sed "s#@LIBDIR@#%{_libdir}#g" \
+        > packaging/org.tizen.srs.service
 
 /usr/bin/install -m 644 packaging/speech-recognition.conf \
     $RPM_BUILD_ROOT%{_sysconfdir}/speech-recognition
